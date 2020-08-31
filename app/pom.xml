@@ -5,7 +5,7 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>gs-spring-boot</artifactId>
-    <version>0.1.0</version>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -42,6 +42,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <finalName>app</finalName>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
